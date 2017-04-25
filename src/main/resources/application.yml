@@ -1,0 +1,10 @@
+server:
+  port: 8092
+
+krx:
+  url: "http://kind.krx.co.kr/"
+
+scheduler:
+# 월~금 19시
+#  codeUpdate: "0 0 19 * * MON-FRI"
+  codeUpdate: "*/5 * * * * *"
